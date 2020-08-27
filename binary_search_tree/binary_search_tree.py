@@ -112,6 +112,10 @@ bst.insert(3)
 bst.insert(4)
 bst.insert(2)
 
+
+print_node = lambda x: print(x)
+
+bst.for_each(print_node)
 # bst.bft_print()
 # bst.dft_print()
 
